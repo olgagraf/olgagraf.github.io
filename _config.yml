@@ -1,3 +1,6 @@
 theme: minima
 title: Welcome to my blog!
 description: This is my blog.
+markdown: kramdown
+kramdown:
+math_engine: katex
