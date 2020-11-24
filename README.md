@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-Using Jekyll; this simple solution worked well! Example (1): $h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$ ; example (2): $a^2 + b^2 = c^2$ ; example (3): $\sum_{i=1}^m y^{(i)}$ –
+Using Jekyll  ; this simple solution worked well! Example (1): $h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$ ; example (2): $a^2 + b^2 = c^2$ ; example (3): $\sum_{i=1}^m y^{(i)}$ –
 
 You can use the [editor on GitHub](https://github.com/olgagraf/olgagraf.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
