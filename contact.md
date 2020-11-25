@@ -6,7 +6,7 @@ ref: contact
 order: 1
 ---
 
-Feel free to contact me at [](#header-4)olga.a.graf
+Please feel free to contact me at
 #### [](#header-4)olga.a.graf [at] gmail.com
 
 
