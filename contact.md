@@ -7,6 +7,7 @@ order: 1
 ---
 
 Feel free to contact me at *olga.a.graf [at] gmail.com*.
+<p style="color:SeaGreen">This is a paragraph.</p>
 
 
 
