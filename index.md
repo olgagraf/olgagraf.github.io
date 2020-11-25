@@ -3,7 +3,7 @@
 The theory of neural networks revolves around the fact that the neural networks are universal approximators. That it, \textbf{for any continuous function $f$ defined on a bounded domain, we can find a neural network that approximates $f$ with an arbitrary degree of accuracy}. However, it is not widely understood why this holds true. Available literature on the topic tends towards two extremes. On one hand, there are simple visual explanations like the one given by Michael Nielsen \href{http://neuralnetworksanddeeplearning.com/chap4.html}{\underline{[1]}}, with plausible, but not mathematically rigorous arguments. On the other hand, there are scientific papers with lengthy proofs which require a solid mathematical background.
 
 
-![\int_X f(x)d\mu(x)
+![\Large \int_X f(x)d\mu(x)
 ](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cint_X+f%28x%29d%5Cmu%28x%29%0A)
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
