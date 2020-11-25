@@ -7,7 +7,7 @@ ref: about
 order: 0
 ---
 
-<img align="left" src="assets/images/olga2.jpg" width="200" height="200" id="hp">
+<img align="left" src="assets/images/olga2.jpg" width="170" height="170" id="hp">
 Hi! My name is Olga and I'm a PhD candidate in mathematics at the Tecnhical University of Munich.
 <br>
 <br>
