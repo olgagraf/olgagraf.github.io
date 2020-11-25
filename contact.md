@@ -6,8 +6,8 @@ ref: contact
 order: 1
 ---
 
-Feel free to contact me at *olga.a.graf [at] gmail.com*.
-<p style="color:red">This is a paragraph.</p>
+Feel free to contact me at olga.a.graf [at] gmail.com.
+#### [](#header-4)olga.a.graf [at] gmail.com
 
 
 
