@@ -11,6 +11,8 @@ Hi! My name is Olga and I'm a PhD candidate in mathematics at the Tecnhical Univ
 
 ![image](/assets/images/numbers14.jpg){:height="36px" width="36px"}
 
+<img src="assets/images/numbers14.jpg" width="200">
+
 <!---
 [Go to the Home Page]({{ '/' | absolute_url }})
 -->
