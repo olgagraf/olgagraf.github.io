@@ -28,26 +28,7 @@ Some of the things I have altered in the Kudzu library:
 Added extra functions in the Callbacks call; Added tqdm for visualizing progress; Added softmax activation and softmax prime function. 
 
 
-```python
-#hide
-%load_ext autoreload
-%autoreload 2
-```
 
-
-```python
-#hide
-%matplotlib inline
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-```
-
-
-```python
-#hide
-!pip install mnist
-```
 
     Requirement already satisfied: mnist in c:\users\sakth\anaconda3\lib\site-packages (0.2.2)
     Requirement already satisfied: numpy in c:\users\sakth\anaconda3\lib\site-packages (from mnist) (1.16.4)
