@@ -8,4 +8,4 @@
 layout: home
 ---
 
-[Link to another page](./new.html).
+[Link to another page](new.html).
