@@ -2,6 +2,11 @@
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
+
+![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+![equation](https://bit.ly/3kX5iK8)
+
+
 You can use the [editor on GitHub](https://github.com/olgagraf/olgagraf.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
