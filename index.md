@@ -8,4 +8,4 @@
 layout: home
 ---
 
-[Link to another page](new.html).
+[Link to a page]({{ site.baseurl }}{% link new.md %})
