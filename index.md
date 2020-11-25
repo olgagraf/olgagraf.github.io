@@ -8,4 +8,4 @@
 layout: home
 ---
 
-[My page](contact.md)
+[My pages](contact.md)
