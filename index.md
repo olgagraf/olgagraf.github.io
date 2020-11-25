@@ -6,7 +6,7 @@ The theory of neural networks revolves around the fact that the neural networks 
 ![\huge \int_X f(x)d\mu(x)
 ](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cint_X+f%28x%29d%5Cmu%28x%29%0A)
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=\huge e^{i \pi} = -1">
 
 
 <img src="https://render.githubusercontent.com/render/math?math=F(\mathbf{x})=\sum_{i=1}^{m}\alpha_i\phi(\mathbf{w}_i\mathbf{x}+b_i),">
