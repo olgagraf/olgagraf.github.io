@@ -7,5 +7,8 @@
 #
 layout: home
 ---
-
+<!---
 [My pages](contact.md)
+[Go to the Home Page]({{ '/' | absolute_url }})
+![image](/assets/images/numbers14.jpg)
+-->
