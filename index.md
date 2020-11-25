@@ -8,4 +8,4 @@
 layout: home
 ---
 
-[My page](/new.md)
+[My page](new.md)
