@@ -14,13 +14,7 @@ Hi! My name is Olga and I'm a PhD candidate in mathematics at the Tecnhical Univ
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 
 
