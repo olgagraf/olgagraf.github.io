@@ -28,3 +28,11 @@ target-blank:
     rel: nofollow
 
 header_page_refs: ['now', 'about', 'contact']
+
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
