@@ -4,7 +4,7 @@
 
 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-![equation](https://bit.ly/3kX5iK8)
+![equation](http://www.sciweavers.org/tex2img.php?eq=F%28%5Cmathbf%7Bx%7D%29%3D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%5Calpha_i%5Cphi%28%5Cmathbf%7Bw%7D_i%5Cmathbf%7Bx%7D%2Bb_i%29%2C&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
 
 You can use the [editor on GitHub](https://github.com/olgagraf/olgagraf.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
