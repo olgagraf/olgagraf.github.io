@@ -9,7 +9,12 @@ order: 0
 
 <img align="left" src="assets/images/numbers14.jpg" width="200" height="200">
 Hi! My name is Olga and I'm a PhD candidate in mathematics at the Tecnhical University of Munich.
-<spacer type="vertical" width="100" height="1000"> </spacer>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 hi
 
