@@ -73,24 +73,6 @@ Source:  Wikipedia
 
 
 
-```python
-#hide
-import mnist
-```
-
-
-```python
-#hide
-#Loading the train images and labels from mnist
-train_images = mnist.train_images()
-train_labels = mnist.train_labels()
-```
-
-
-```python
-#hide
-train_images.shape, train_labels.shape
-```
 
 
 
@@ -98,20 +80,6 @@ train_images.shape, train_labels.shape
     ((60000, 28, 28), (60000,))
 
 
-
-
-```python
-#hide
-#Loading the test images and labels from mnist
-test_images = mnist.test_images()
-test_labels = mnist.test_labels()
-```
-
-
-```python
-#hide
-test_images.shape, test_labels.shape
-```
 
 
 
