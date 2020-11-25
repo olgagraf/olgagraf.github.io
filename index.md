@@ -15,6 +15,10 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 <img src="https://render.githubusercontent.com/render/math?math=\huge e^{i \pi} = -1">
 </div>
 
+<div align="center">
+<img src="https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cint_X+f%28x%29d%5Cmu%28x%29%0A">
+</div>
+
 <img src="https://render.githubusercontent.com/render/math?math=F(\mathbf{x})=\sum_{i=1}^{m}\alpha_i\phi(\mathbf{w}_i\mathbf{x}+b_i),">
 
 You can use the [editor on GitHub](https://github.com/olgagraf/olgagraf.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
