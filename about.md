@@ -9,7 +9,7 @@ order: 0
 
 Hi! My name is Olga and I'm a PhD candidate in mathematics at the Tecnhical University of Munich.
 
-![image](/assets/images/numbers14.jpg =250x)
+![image](/assets/images/numbers14.jpg){:height="36px" width="36px"}
 
 <!---
 [Go to the Home Page]({{ '/' | absolute_url }})
