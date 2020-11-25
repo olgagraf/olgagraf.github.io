@@ -9,11 +9,7 @@ order: 0
 
 Hi! My name is Olga and I'm a PhD candidate in mathematics at the Tecnhical University of Munich.
 
-![Olga](https://github.com/olgagraf/olgagraf.github.io/blob/main/numbers14.jpg)
-
-![image](/assets/images/numbers14.jpg)
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![image](/assets/images/numbers14.jpg =250x)
 
 <!---
 [Go to the Home Page]({{ '/' | absolute_url }})
