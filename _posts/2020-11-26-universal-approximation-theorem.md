@@ -1,4 +1,6 @@
-use_math: true
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 
 The theory of neural networks revolves around the fact that the neural networks are universal approximators. That it, **for any continuous function <img src="https://render.githubusercontent.com/render/math?math=\Large f"> defined on a bounded domain, we can find a neural network that approximates <img src="https://render.githubusercontent.com/render/math?math=\Large f"> with an arbitrary degree of accuracy**.
