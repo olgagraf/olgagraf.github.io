@@ -78,7 +78,7 @@ The crucial reason behind why this holds true is the choice of the activation fu
 In order to get some intuition about this property, let's resort to a simple univariate example. Consider mapping $\gamma(f(x))=f(x)-f(1/2)$.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/example.jpg" height="275">
+<img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/example2.jpg" height="275">
 </div>
 
 <div align="center">
@@ -89,9 +89,7 @@ In Figure 2 we see that in case of $\gamma(wx+b)$, its integral on a unit interv
 
 In some sense, the discriminatory property prevents functions from "losing" the information conveyed in the linear transformation of $\mathbf{x}$.
 
-**Step 2.** Another way of stating that for any $f\in C(I_n)$ there exists $F(\mathbf{x})$ such that 
-
-$\|F(\mathbf{x})-f(\mathbf{x})\|<\varepsilon$ for all $\mathbf{x}\in I_n$ is to say that the set $S$ of functions of the form $F(\mathbf{x})$ is dense in $C(I_n)$ or, equivalently, $\overline{S}=C(I_n)$.
+**Step 2.** Another way of stating that for any $f\in C(I_n)$ there exists $F(\mathbf{x})$ such that $\|F(\mathbf{x})-f(\mathbf{x})\|<\varepsilon$ for all $\mathbf{x}\in I_n$ is to say that the set $S$ of functions of the form $F(\mathbf{x})$ is dense in $C(I_n)$ or, equivalently, $\overline{S}=C(I_n)$.
 
 For the sake of contradiction, assume $\overline{S}\neq C(I_n)$. This assumption allows us to use a core tool in functional analysis, the Hahn-Banach Theorem. We'll combine it with another result from functional analysis, the Riesz Representation Theorem. By these theorems, there exists
 
@@ -105,7 +103,9 @@ such that
 L\neq 0,\hspace{0.2cm} \textrm{but}\hspace{0.2cm}L(g)=0 \hspace{0.2cm} \textrm{for any}\hspace{0.2cm} g\in \overline{S}.
 \end{equation}
 
-This intuitively makes sense. Let's look at example from Step 1. Clearly, $G=\{\gamma(wx+b)\hspace{0.1cm}|\hspace{0.1cm} w, b \in\mathbb{R} \}$ forms a proper subspace of $C(I_1)$ and $\overline{G}\neq C(I_1)$. As required, $\gamma(wx+b)$ satisfies the condition imposed by the theorems. As we've seen, $\int_{0}^{1} \gamma(wx+b)dx=0$ for all $w, b\in \mathbb{R}$, but $\int_{0}^{1} \gamma(g(x))dx$ might not be zero for arbitrary $g\in C(I_n)$.
+This intuitively makes sense. Let's look at example from Step 1. Clearly, $G=\{\gamma(wx+b)\hspace{0.1cm}\|\hspace{0.1cm} w, b \in\mathbb{R} \}$ forms a proper subspace of $C(I_1)$ and $\overline{G}\neq C(I_1)$. As required, $\gamma(wx+b)$ satisfies the condition imposed by the theorems. As we've seen, $\int_{0}^{1} \gamma(wx+b)dx=0$ for all $w, b\in \mathbb{R}$, but $\int_{0}^{1} \gamma(g(x))dx$ might not be zero for arbitrary $g\in C(I_n)$.
+
+Now let's take $\phi(\mathbf{w}\cdot\mathbf{x}+b)\in\overline{S}$. By the discriminatory property, $L(\phi(\mathbf{w}\cdot\mathbf{x}+b))=0$ implies $\mu=0$ and $L(g)=0$ for all $g\in C(I_n)$ which contradicts (2) and our assumption that $\overline{S}\neq C(I_n)$. Therefore, $\overline{S}=C(I_n)$.$\hspace{9.2cm}\qedsymbol$
 
 <!---
 **Bold** and _Italic_ and `Code` text
