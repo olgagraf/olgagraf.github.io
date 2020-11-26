@@ -26,6 +26,7 @@ The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is 
 Now we can formally state the **Universal Approximation Theorem**.
 
 **Theorem.** *Consider a neural network of the form (1) where $\phi$ is sigmoid or ReLU. Then, given any $f\in C(I_n)$ and $\varepsilon>0$, there exists $F(\mathbf{x})$ for which*
+
 \begin{equation*}
 |F(\mathbf{x})-f(\mathbf{x})|<\varepsilon\hspace{0.5cm} \textrm{for all}\hspace{0.5cm} \mathbf{x}\in I_n.
 \end{equation*}
