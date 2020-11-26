@@ -41,10 +41,6 @@ Before we start with the proof, we'll touch upon some mathematical notions that 
 
 In mathematics, a measure on a set is a generalization of the concepts such as length, area, or volume, and can be intuitively interpreted as the size of the set. If we define some measure $\mu$ on $X$, we can integrate over $X$ with respect to that measure,
 
-\begin{equation}
-\int_X f(x)d\mu(x).
-\end{equation}
-
 <div align="center">
 $\displaystyle\int\nolimits_X f(x)d\mu(x).$
 </div>
