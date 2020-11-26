@@ -19,7 +19,7 @@ We consider a feedforward network with <img src="https://render.githubuserconten
 <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Bequation%7D%5Clabel%7Bnn%7D%0AF%28%5Cmathbf%7Bx%7D%29%3D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%5Calpha_i%5Cvarphi%28%5Cmathbf%7Bw%7D_i%5Cmathbf%7Bx%7D%2Bb_i%29%2C%0A%5Cend%7Bequation%7D">
 </div>
 
-where <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cmathbf%7Bw%7D_i%2C+%5Cmathbf%7Bx%7D+%5Cin+%5Cmathbb%7BR%7D%5En">, <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Calpha_i%2C+b_i+%5Cin+%5Cmathbb%7BR%7D">.
+where <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cmathbf%7Bw%7D_i%2C+%5Cmathbf%7Bx%7D+%5Cin+%5Cmathbb%7BR%7D%5En">, <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Calpha_i%2C+b_i+%5Cin+%5Cmathbb%7BR%7D">.
 
 The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is able to approximate belong to the space of continuous functions on some bounded domain. Let us consider an $n$-dimensional unit cube, $I_n=[0,1]^n$, and denote the space of continuous functions on $I_n$ by $C(I_n)$.
 
