@@ -75,7 +75,7 @@ The crucial reason behind why this holds true is the choice of the activation fu
 
 *for all $\mathbf{w}\in \mathbb{R}^n,  b \in \mathbb{R}$ implies that  $\mu=0$.*
 
-In order to get some intuition about this property, let's resort to a simple univariate example. Consider mapping $\gamma\left(f(x)\right)=f(x)-f\left({}^1{\mskip -5mu/\mskip -3mu}_2\right)$.
+In order to get some intuition about this property, let's resort to a simple univariate example. Consider mapping $\gamma\left(f(x)\right)=f(x)-f\left({}^1{\mskip -0mu/\mskip -0mu}_2\right)$.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/example3.jpg" height="275">
