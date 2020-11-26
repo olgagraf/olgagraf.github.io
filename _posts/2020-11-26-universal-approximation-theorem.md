@@ -7,6 +7,8 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 ## The Formal Statement
 Let us start with defining our neural network and formalizing the theorem statement.
 
+![Branching](https://olgagraf.github.io/2020/11/26/assets/images/nn.jpg)
+
 <div align="center">
 <img src="assets/images/nn.jpg" width="300" height="400">
 </div>
