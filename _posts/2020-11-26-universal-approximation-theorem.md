@@ -65,6 +65,16 @@ The crucial reason behind why this holds true is the choice of the activation fu
 
 **Step 1.** We will state the following Lemma without a proof. The interested reader can find the proof for sigmoid function in the original paper by Cybenko and for ReLU in [[3]](http://math.uchicago.edu/~may/REU2018/REUPapers/Guilhoto.pdf).
 
+**Lemma** (Discriminatory property of activation functions)**.** *Let the activation function $\phi$ be sigmoid or ReLU. Then for a measure $\mu\in M(I_n)$,*
+
+\begin{equation}
+\int_{I_n} \phi(\mathbf{w}\cdot\mathbf{x}+b)d\mu(\mathbf{x})=0 
+\end{equation}
+
+for all $\mathbf{w}\in \mathbb{R}^n,  b \in \mathbb{R}$ implies that  $\mu=0$.
+
+In order to get some intuition about this property, let's resort to a simple univariate example. Consider mapping $\gamma(f(x))=f(x)-f(1/2)$. 
+
 
 <!---
 **Bold** and _Italic_ and `Code` text
