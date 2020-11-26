@@ -9,6 +9,8 @@ Let us start with defining our neural network and formalizing the theorem statem
 
 $$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
 
+$$a^2 + b^2 = c^2$$
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/nn.jpg" height="400">
 </div>
