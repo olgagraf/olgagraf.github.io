@@ -30,6 +30,9 @@ Now we can formally state the **Universal Approximation Theorem**.
 |F(\mathbf{x})-f(\mathbf{x})|<\varepsilon\hspace{0.5cm} \textrm{for all}\hspace{0.5cm} \mathbf{x}\in I_n.
 \end{equation*}
 
+We presented this theorem in one of its early forms. Extensions for other activation functions, arbitrary network width and depth as well as different network architectures are available, but fall beyond the scope of this short note.
+
+
 
 <!---
 <ul>
