@@ -1,10 +1,4 @@
-<!---
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
--->
-
-The theory of neural networks revolves around the fact that the neural networks are universal approximators. That it, **for any continuous function <img src="https://render.githubusercontent.com/render/math?math=\Large f"> defined on a bounded domain, we can find a neural network that approximates <img src="https://render.githubusercontent.com/render/math?math=\Large f"> with an arbitrary degree of accuracy**.
+The theory of neural networks revolves around the fact that the neural networks are universal approximators. That it, **for any continuous function $f$ defined on a bounded domain, we can find a neural network that approximates $f$ with an arbitrary degree of accuracy**.
 
 However, it is not widely understood why this holds true. Available literature on the topic tends towards two extremes. On one hand, there are simple visual explanations like the one given by Michael Nielsen [[1]](http://neuralnetworksanddeeplearning.com/chap4.html), with plausible, but not mathematically rigorous arguments. On the other hand, there are scientific papers with lengthy proofs which require a solid mathematical background.
 
