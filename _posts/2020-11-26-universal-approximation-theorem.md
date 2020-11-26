@@ -36,7 +36,8 @@ We presented this theorem in one of its early forms. Extensions for other activa
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.title }}</span>
+      <span>{{ post.content | reading_time }}</span>
     </li>
   {% endfor %}
 </ul>
