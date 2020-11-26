@@ -76,7 +76,7 @@ The crucial reason behind why this holds true is the choice of the activation fu
 In order to get some intuition about this property, let's resort to a simple univariate example. Consider mapping $\gamma(f(x))=f(x)-f(1/2)$.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/example.jpg" height="250">
+<img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/example.jpg" height="275">
 </div>
 
 
