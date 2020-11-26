@@ -79,6 +79,15 @@ In order to get some intuition about this property, let's resort to a simple uni
 <img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/example.jpg" height="275">
 </div>
 
+<sup>**Figure 2.** Sigmoid function $\sigma$ satisfies the discriminatory property, while $\gamma$ does not.</sup>
+
+In Figure 2 we see that in case of $\gamma(wx+b)$, its integral on a unit interval will be zero for all $w, b\in \mathbb{R}$. This is not true for the sigmoid function $\sigma(wx+b)$. In this case we get zero for all $w, b\in \mathbb{R}$ only if we integrate over an interval of length zero (essentially, meaning that $\mu=0$).
+
+In some sense, the discriminatory property prevents functions from "losing" the information conveyed in the linear transformation of $\mathbf{x}$.
+
+**Step 2.** Another way of stating that for any $f\in C(I_n)$ there exists $F(\mathbf{x})$ such that $|F(\mathbf{x})-f(\mathbf{x})|<\varepsilon$ for all $\mathbf{x}\in I_n$ is to say that the set $S$ of functions of the form $F(\mathbf{x})$ is dense in $C(I_n)$ or, equivalently, $\overline{S}=C(I_n)$.
+
+For the sake of contradiction, assume $\overline{S}\neq C(I_n)$. This assumption allows us to use a core tool in functional analysis, the Hahn-Banach Theorem. We'll combine it with another result from functional analysis, the Riesz Representation Theorem. By these theorems, there exists
 
 <!---
 **Bold** and _Italic_ and `Code` text
