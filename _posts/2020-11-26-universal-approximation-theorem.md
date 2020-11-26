@@ -4,7 +4,7 @@ However, it is not widely understood why this holds true. Available literature o
 
 In this note, a simple yet mathematically rigorous explanation is presented. In order to read the text, it will suffice to have basic knowledge of calculus and linear algebra. For the sake of simplicity, some statements will be presented without a proof, in this case an intuitive explanation will be provided. However, an overall argument does not give up on rigour and follows a mathematically elegant as well as historically important proof given by George Cybenko in 1989 [[2]](https://web.eecs.umich.edu/~cscott/smlrg/approx_by_superposition.pdf).
 
-### The Formal Statement
+## The Formal Statement
 Let us start with defining our neural network and formalizing the theorem statement. 
 
 <!---
