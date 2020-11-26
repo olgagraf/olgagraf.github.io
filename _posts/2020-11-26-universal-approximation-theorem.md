@@ -10,7 +10,7 @@ Let us start with defining our neural network and formalizing the theorem statem
 dd
 <img align="left" src="assets/images/2020-11-26-nn.jpg" width="150" height="150" id="hp">
 rrr
-![immm](assets/images/nn.jpg)
+![immm]()
 
 <div align="center">
 <img src="{{ https://olgagraf.github.io }}/assets/images/2020-11-26-nn.jpg" height="400">
