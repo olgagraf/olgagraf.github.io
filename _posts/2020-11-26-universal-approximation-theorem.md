@@ -107,7 +107,7 @@ This intuitively makes sense. Let's look at example from Step 1. Clearly, $G=\{\
 
 Now let's take $\phi(\mathbf{w}\cdot\mathbf{x}+b)\in\overline{S}$. By the discriminatory property, $L(\phi(\mathbf{w}\cdot\mathbf{x}+b))=0$ implies $\mu=0$ and $L(g)=0$ for all $g\in C(I_n)$ which contradicts (2) and our assumption that $\overline{S}\neq C(I_n)$. Therefore, $\overline{S}=C(I_n)$. $\square$
 
-<div style="text-align: left"> $\square$ </div>
+<div align="right"> $\square$ </div>
 
 <!---
 **Bold** and _Italic_ and `Code` text
