@@ -37,6 +37,14 @@ We presented this theorem in one of its early forms. Extensions for other activa
 
 Before we start with the proof, we'll touch upon some mathematical notions that we will use later on.
 
+**Measure**
+
+In mathematics, a measure on a set is a generalization of the concepts such as length, area, or volume, and can be intuitively interpreted as the size of the set. If we define some measure $\mu$ on $X$, we can integrate over $X$ with respect to that measure,
+
+\begin{equation}
+\int_X f(x)d\mu(x).
+\end{equation}
+
 <!---
 <ul>
   {% for post in site.posts %}
