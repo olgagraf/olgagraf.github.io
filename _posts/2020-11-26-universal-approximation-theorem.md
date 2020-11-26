@@ -11,6 +11,8 @@ $$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
 
 $$a^2 + b^2 = c^2$$
 
+\\( sin(x^2) \\) 
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/nn.jpg" height="400">
 </div>
