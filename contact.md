@@ -14,4 +14,5 @@ Please feel free to contact me at
 <!---
 [Go to the Home Page]({{ '/' | absolute_url }})
 ![image](/assets/images/numbers14.jpg)
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle++%5C%40">
 -->
