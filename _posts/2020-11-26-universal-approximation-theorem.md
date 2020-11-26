@@ -7,6 +7,8 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 ## The Formal Statement
 Let us start with defining our neural network and formalizing the theorem statement.
 
+dd
+<img align="left" src="assets/images/olga4.jpg" width="150" height="150" id="hp">
 rrr
 ![immm](assets/images/nn.jpg)
 
