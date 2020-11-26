@@ -56,10 +56,12 @@ The closure of a set $A$ is denoted by $\overline{A}$ and is defined as the unio
 We can think that a linear combination of neurons in a hidden layer approximates $f$ similarly to how a partial Fourier sum (i.e., finite linear combination of sines and cosines) approximates any periodic function. Now our goal is to figure out why for
 
 \begin{equation}
-S:=\mathrm{span}\{\phi(\mathbf{w}\cdot\mathbf{x}+b)\hspace{0.1cm}|\hspace{0.1cm} \mathbf{w}\in \mathbb{R}^n, b \in\mathbb{R} \},
+S:=\mathrm{span}\\{\phi(\mathbf{w}\cdot\mathbf{x}+b)\hspace{0.1cm}|\hspace{0.1cm} \mathbf{w}\in \mathbb{R}^n, b \in\mathbb{R} \\},
 \end{equation}
 
 we have $\overline{S}=C(I_n)$, or, in other words, why the linear combination of activation functions can approximate \textit{any} continuous function.
+
+The crucial reason behind why this holds true is the choice of the activation functions. In the first step, we will show that the chosen activation functions possess a certain useful property. In the second step, we will show that this property implies the ability of a neural network to approximate any continuous function.
 
 
 <!---
