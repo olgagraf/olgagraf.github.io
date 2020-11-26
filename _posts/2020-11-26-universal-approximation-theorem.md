@@ -45,10 +45,8 @@ In mathematics, a measure on a set is a generalization of the concepts such as l
 \int_X f(x)d\mu(x).
 \end{equation}
 
-$\int_X f(x)d\mu(x).$
 <div align="center">
-
-# This is gonna be centered!
+$\int\limits_X f(x)d\mu(x).$
 </div>
 
 In order to consistently apply some results from functional analysis, in the proof we will consider the space of all finite, signed regular Borel measures on $I_n$ and denote it by $M(I_n)$. For continuous functions on $I_n$, the above integral with respect to $\mu\in M(I_n)$ essentially gives the same result as the usual Riemann integral known from calculus.
