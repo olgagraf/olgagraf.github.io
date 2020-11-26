@@ -52,6 +52,8 @@ In order to consistently apply some results from functional analysis, in the pro
 The closure of a set $A$ is denoted by $\overline{A}$ and is defined as the union of $A$ and its boundary. E.g., if $A=(a,b)$ is an open interval on $\mathbb{R}$, then $\overline{A}=[a,b]$. If $A=\mathbb{Q}$ is the set of all rational numbers, then $\overline{A}=\mathbb{R}$. We also say that $\mathbb{Q}$ is dense in $\mathbb{R}$.
 
 
+
+
 <!---
 **Bold** and _Italic_ and `Code` text
 <ul>
