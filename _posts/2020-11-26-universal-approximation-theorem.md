@@ -9,7 +9,7 @@ Let us start with defining our neural network and formalizing the theorem statem
 
 We consider a feedforward network with $n$ neurons in the input layer, $m$ neurons in the hidden layer, a single neuron in the output layer and some activation function $\phi$ (e.g., sigmoid or ReLU). We can write it down in a compact way,
 
-<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cmathbf%7Bw%7D_i%2C+%5Cmathbf%7Bx%7D+%5Cin+%5Cmathbb%7BR%7D%5En">
+where <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cmathbf%7Bw%7D_i%2C+%5Cmathbf%7Bx%7D+%5Cin+%5Cmathbb%7BR%7D%5En">,
 
 <!---
 <ul>
