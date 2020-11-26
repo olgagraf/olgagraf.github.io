@@ -15,7 +15,7 @@ Let us start with defining our neural network and formalizing the theorem statem
 
 We consider a feedforward network with $n$ neurons in the input layer, $m$ neurons in the hidden layer, a single neuron in the output layer and some activation function $\phi$ (e.g., sigmoid or ReLU). We can write it down in a compact way,
 
-\begin{equation}\label{nn}
+\begin{equation}
 F(\mathbf{x})=\sum_{i=1}^{m}\alpha_i\phi(\mathbf{w}_i\mathbf{x}+b_i),
 \end{equation}
 
@@ -26,9 +26,9 @@ The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is 
 Now we can formally state the **Universal Approximation Theorem**.
 
 **Theorem.** *Consider a neural network of the form (1) where $\phi$ is sigmoid or ReLU. Then, given any $f\in C(I_n)$ and $\varepsilon>0$, there exists $F(\mathbf{x})$ for which*
-\[
+\begin{equation*}
 |F(\mathbf{x})-f(\mathbf{x})|<\varepsilon\hspace{0.5cm} \textrm{for all}\hspace{0.5cm} \mathbf{x}\in I_n.
-\]
+\end{equation*}
 
 
 <!---
