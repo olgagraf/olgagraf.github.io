@@ -59,7 +59,7 @@ We can think that a linear combination of neurons in a hidden layer approximates
 S:=\mathrm{span}\\{\phi(\mathbf{w}\cdot\mathbf{x}+b)\hspace{0.1cm}|\hspace{0.1cm} \mathbf{w}\in \mathbb{R}^n, b \in\mathbb{R} \\},
 \end{equation}
 
-we have $\overline{S}=C(I_n)$, or, in other words, why the linear combination of activation functions can approximate \textit{any} continuous function.
+we have $\overline{S}=C(I_n)$, or, in other words, why the linear combination of activation functions can approximate *any* continuous function.
 
 The crucial reason behind why this holds true is the choice of the activation functions. In the first step, we will show that the chosen activation functions possess a certain useful property. In the second step, we will show that this property implies the ability of a neural network to approximate any continuous function.
 
@@ -73,7 +73,11 @@ The crucial reason behind why this holds true is the choice of the activation fu
 
 *for all $\mathbf{w}\in \mathbb{R}^n,  b \in \mathbb{R}$ implies that  $\mu=0$.*
 
-In order to get some intuition about this property, let's resort to a simple univariate example. Consider mapping $\gamma(f(x))=f(x)-f(1/2)$. 
+In order to get some intuition about this property, let's resort to a simple univariate example. Consider mapping $\gamma(f(x))=f(x)-f(1/2)$.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/example.jpg" height="400">
+</div>
 
 
 <!---
