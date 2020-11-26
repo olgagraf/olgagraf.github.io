@@ -95,6 +95,16 @@ $\\|F(\mathbf{x})-f(\mathbf{x})\\|<\varepsilon$ for all $\mathbf{x}\in I_n$ is t
 
 For the sake of contradiction, assume $\overline{S}\neq C(I_n)$. This assumption allows us to use a core tool in functional analysis, the Hahn-Banach Theorem. We'll combine it with another result from functional analysis, the Riesz Representation Theorem. By these theorems, there exists
 
+\begin{equation}
+L(g)=\int_{I_n}g(\mathbf{x})d\mu(\mathbf{x})\hspace{0.3cm} \textrm{for some}\hspace{0.2cm}\mu\in M(I_n)\hspace{0.2cm} \textrm{and for all}\hspace{0.2cm} g\in C(I_n)
+\end{equation}
+
+such that
+
+\begin{equation}
+L\neq 0,\hspace{0.2cm} \textrm{but}\hspace{0.2cm}L(g)=0 \hspace{0.2cm} \textrm{for any}\hspace{0.2cm} g\in \overline{S}.
+\end{equation}
+
 <!---
 **Bold** and _Italic_ and `Code` text
 <ul>
