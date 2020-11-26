@@ -13,10 +13,10 @@ Let us start with defining our neural network and formalizing the theorem statem
 
 <sup>**Figure 1.** A visual representation of a neural network with 1 hidden layer which approximates some function $f: \mathbb{R}^n\rightarrow \mathbb{R}$ by computing the function $F(\mathbf{x})$.</sup>
 
-We consider a feedforward network with <img src="https://render.githubusercontent.com/render/math?math=\large n"> neurons in the input layer, <img src="https://render.githubusercontent.com/render/math?math=\large m"> neurons in the hidden layer, a single neuron in the output layer and some activation function <img src="https://render.githubusercontent.com/render/math?math=\large \varphi"> (e.g., sigmoid or ReLU). We can write it down in a compact way,
+We consider a feedforward network with <img src="https://render.githubusercontent.com/render/math?math=\large n"> neurons in the input layer, <img src="https://render.githubusercontent.com/render/math?math=\large m"> neurons in the hidden layer, a single neuron in the output layer and some activation function <img src="https://render.githubusercontent.com/render/math?math=\large \phi"> (e.g., sigmoid or ReLU). We can write it down in a compact way,
 
 <div align="center">
-<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Bequation%7D%5Clabel%7Bnn%7D%0AF%28%5Cmathbf%7Bx%7D%29%3D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%5Calpha_i%5Cvarphi%28%5Cmathbf%7Bw%7D_i%5Cmathbf%7Bx%7D%2Bb_i%29%2C%0A%5Cend%7Bequation%7D">
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Bequation%7D%5Clabel%7Bnn%7D%0AF%28%5Cmathbf%7Bx%7D%29%3D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%5Calpha_i%5Cphi%28%5Cmathbf%7Bw%7D_i%5Cmathbf%7Bx%7D%2Bb_i%29%2C%0A%5Cend%7Bequation%7D">
 </div>
 
 where <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cmathbf%7Bw%7D_i%2C+%5Cmathbf%7Bx%7D+%5Cin+%5Cmathbb%7BR%7D%5En">, <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Calpha_i%2C+b_i+%5Cin+%5Cmathbb%7BR%7D">.
@@ -25,7 +25,7 @@ The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is 
 
 Now we can formally state the **Universal Approximation Theorem**.
 
-**Theorem.** *Consider a neural network of the form (1) where <img src="https://render.githubusercontent.com/render/math?math=\large \varphi"> is sigmoid or ReLU. Then, given any <img src="https://render.githubusercontent.com/render/math?math=\large f\in C(I_n)"> and <img src="https://render.githubusercontent.com/render/math?math=\large \varepsilon>0">, there exists <img src="https://render.githubusercontent.com/render/math?math=\large F(\mathbf{x})"> for which*
+**Theorem.** *Consider a neural network of the form (1) where <img src="https://render.githubusercontent.com/render/math?math=\large \phi"> is sigmoid or ReLU. Then, given any <img src="https://render.githubusercontent.com/render/math?math=\large f\in C(I_n)"> and <img src="https://render.githubusercontent.com/render/math?math=\large \varepsilon>0">, there exists <img src="https://render.githubusercontent.com/render/math?math=\large F(\mathbf{x})"> for which*
 
 
 <!---
