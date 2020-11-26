@@ -19,7 +19,7 @@ The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is 
 
 Now we can formally state the **Universal Approximation Theorem**.
 
-**Theorem.** *Consider a neural network of the form (1) where <img src="https://render.githubusercontent.com/render/math?math=\Large \varphi"> is sigmoid or ReLU. Then, given any <img src="https://render.githubusercontent.com/render/math?math=\Large f\in C(I_n)"> and <img src="https://render.githubusercontent.com/render/math?math=\Large \varepsilon>0">, there exists <img src="https://render.githubusercontent.com/render/math?math=\Large F(\mathbf{x})"> for which*
+**Theorem.** *Consider a neural network of the form (1) where <img src="https://render.githubusercontent.com/render/math?math=\large \varphi"> is sigmoid or ReLU. Then, given any <img src="https://render.githubusercontent.com/render/math?math=\large f\in C(I_n)"> and <img src="https://render.githubusercontent.com/render/math?math=\large \varepsilon>0">, there exists <img src="https://render.githubusercontent.com/render/math?math=\large F(\mathbf{x})"> for which*
 
 
 <!---
