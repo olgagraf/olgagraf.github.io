@@ -51,7 +51,7 @@ $\displaystyle\int\limits_X f(x)d\mu(x).$
 
 In order to consistently apply some results from functional analysis, in the proof we will consider the space of all finite, signed regular Borel measures on $I_n$ and denote it by $M(I_n)$. For continuous functions on $I_n$, the above integral with respect to $\mu\in M(I_n)$ essentially gives the same result as the usual Riemann integral known from calculus.
 
-**Measure**
+**Closure**
 
 The closure of a set $A$ is denoted by $\overline{A}$ and is defined as the union of $A$ and its boundary. E.g., if $A=(a,b)$ is an open interval on $\mathbb{R}$, then $\overline{A}=[a,b]$. If $A=\mathbb{Q}$ is the set of all rational numbers, then $\overline{A}=\mathbb{R}$. We also say that $\mathbb{Q}$ is dense in $\mathbb{R}$.
 
