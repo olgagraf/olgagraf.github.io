@@ -5,7 +5,11 @@ However, it is not widely understood why this holds true. Available literature o
 In this note, a simple yet mathematically rigorous explanation is presented. In order to read the text, it will suffice to have basic knowledge of calculus and linear algebra. For the sake of simplicity, some statements will be presented without a proof, in this case an intuitive explanation will be provided. However, an overall argument does not give up on rigour and follows a mathematically elegant as well as historically important proof given by George Cybenko in 1989 [[2]](https://web.eecs.umich.edu/~cscott/smlrg/approx_by_superposition.pdf).
 
 ## The Formal Statement
-Let us start with defining our neural network and formalizing the theorem statement. 
+Let us start with defining our neural network and formalizing the theorem statement.
+
+<div align="center">
+<img src="assets/images/nn.jpg" width="300" height="400" id="hp">
+</div>
 
 We consider a feedforward network with <img src="https://render.githubusercontent.com/render/math?math=\Large n"> neurons in the input layer, <img src="https://render.githubusercontent.com/render/math?math=\Large m"> neurons in the hidden layer, a single neuron in the output layer and some activation function <img src="https://render.githubusercontent.com/render/math?math=\Large \phi"> (e.g., sigmoid or ReLU). We can write it down in a compact way,
 
