@@ -7,8 +7,10 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 ## The Formal Statement
 Let us start with defining our neural network and formalizing the theorem statement.
 
+![Figure 1-1](https://raw.github.com/username/repo/master/images/figure 1-1.png "Figure 1-1")
+
 <div align="center">
-<img src="assets/images/nn.jpg" height="400">
+<img src="https://github.com/olgagraf/olgagraf.github.io/blob/main/assets/images/olga4.jpg" height="400">
 </div>
 
 <sup>tfefffef</sup>
