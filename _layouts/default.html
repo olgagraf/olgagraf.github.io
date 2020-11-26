@@ -119,6 +119,9 @@
             <!-- Post tagline -->
             {% if page.layout == 'post' %}
             <h2 class="project-date">
+                {% if page_author %}
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page_author }}</span></span> • 
+                {% endif %}
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                     {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
                     {{ page.date | date: date_format }}
@@ -127,7 +130,7 @@
                 {% if page_author %}
                 • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page_author }}</span></span> • 
                 {% endif %}
-                {% if page.meta %} {{ page.meta }}{% endif %}{% include post-readingtime.erb %}
+                {% if page.meta %}{{ page.meta }}{% endif %}{% include post-readingtime.erb %}
             </h2>
             {% endif %}
             <!-- End: Post tagline -->
