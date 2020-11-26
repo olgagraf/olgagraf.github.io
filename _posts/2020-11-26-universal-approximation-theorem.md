@@ -9,7 +9,6 @@ aaa
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.title | reading_time }}</span>
     </li>
   {% endfor %}
 </ul>
