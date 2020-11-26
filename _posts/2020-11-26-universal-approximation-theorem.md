@@ -33,7 +33,9 @@ Now we can formally state the **Universal Approximation Theorem**.
 
 We presented this theorem in one of its early forms. Extensions for other activation functions, arbitrary network width and depth as well as different network architectures are available, but fall beyond the scope of this short note.
 
+## Preliminaries
 
+Before we start with the proof, we'll touch upon some mathematical notions that we will use later on.
 
 <!---
 <ul>
