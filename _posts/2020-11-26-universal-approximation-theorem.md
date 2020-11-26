@@ -8,7 +8,7 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 Let us start with defining our neural network and formalizing the theorem statement.
 
 <div align="center">
-<img src="assets/images/nn.jpg" width="300" height="400" id="hp">
+<img src="assets/images/nn.jpg" width="300" height="400">
 </div>
 
 We consider a feedforward network with <img src="https://render.githubusercontent.com/render/math?math=\Large n"> neurons in the input layer, <img src="https://render.githubusercontent.com/render/math?math=\Large m"> neurons in the hidden layer, a single neuron in the output layer and some activation function <img src="https://render.githubusercontent.com/render/math?math=\Large \phi"> (e.g., sigmoid or ReLU). We can write it down in a compact way,
