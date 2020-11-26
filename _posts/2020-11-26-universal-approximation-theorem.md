@@ -1,3 +1,8 @@
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
 The theory of neural networks revolves around the fact that the neural networks are universal approximators. That it, **for any continuous function <img src="https://render.githubusercontent.com/render/math?math=\Large f"> defined on a bounded domain, we can find a neural network that approximates <img src="https://render.githubusercontent.com/render/math?math=\Large f"> with an arbitrary degree of accuracy**.
 
 However, it is not widely understood why this holds true. Available literature on the topic tends towards two extremes. On one hand, there are simple visual explanations like the one given by Michael Nielsen [[1]](http://neuralnetworksanddeeplearning.com/chap4.html), with plausible, but not mathematically rigorous arguments. On the other hand, there are scientific papers with lengthy proofs which require a solid mathematical background.
@@ -7,28 +12,31 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 ## The Formal Statement
 Let us start with defining our neural network and formalizing the theorem statement.
 
-rrr
-![immm](assets/images/nn.jpg)
+$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
+
+$$a^2 + b^2 = c^2$$
+
+\\( sin(x^2) \\) 
 
 <div align="center">
-<img src="https://github.com/olgagraf/olgagraf.github.io/assets/images/olga4.jpg" height="400">
+<img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/nn.jpg" height="400">
 </div>
 
-<sup>tfefffef</sup>
+<sup>**Figure 1.** A visual representation of a neural network with 1 hidden layer which approximates some function $f: \mathbb{R}^n\rightarrow \mathbb{R}$ by computing the function $F(\mathbf{x})$.</sup>
 
-We consider a feedforward network with <img src="https://render.githubusercontent.com/render/math?math=\Large n"> neurons in the input layer, <img src="https://render.githubusercontent.com/render/math?math=\Large m"> neurons in the hidden layer, a single neuron in the output layer and some activation function <img src="https://render.githubusercontent.com/render/math?math=\Large \phi"> (e.g., sigmoid or ReLU). We can write it down in a compact way,
+We consider a feedforward network with <img src="https://render.githubusercontent.com/render/math?math=\large n"> neurons in the input layer, <img src="https://render.githubusercontent.com/render/math?math=\large m"> neurons in the hidden layer, a single neuron in the output layer and some activation function <img src="https://render.githubusercontent.com/render/math?math=\large \phi"> (e.g., sigmoid or ReLU). We can write it down in a compact way,
 
 <div align="center">
-<img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cbegin%7Bequation%7D%5Clabel%7Bnn%7D%0AF%28%5Cmathbf%7Bx%7D%29%3D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%5Calpha_i%5Cvarphi%28%5Cmathbf%7Bw%7D_i%5Cmathbf%7Bx%7D%2Bb_i%29%2C%0A%5Cend%7Bequation%7D">
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Bequation%7D%5Clabel%7Bnn%7D%0AF%28%5Cmathbf%7Bx%7D%29%3D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%5Calpha_i%5Cphi%28%5Cmathbf%7Bw%7D_i%5Cmathbf%7Bx%7D%2Bb_i%29%2C%0A%5Cend%7Bequation%7D">
 </div>
 
-where <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cmathbf%7Bw%7D_i%2C+%5Cmathbf%7Bx%7D+%5Cin+%5Cmathbb%7BR%7D%5En">, <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Calpha_i%2C+b_i+%5Cin+%5Cmathbb%7BR%7D">.
+where <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cmathbf%7Bw%7D_i%2C+%5Cmathbf%7Bx%7D+%5Cin+%5Cmathbb%7BR%7D%5En">, <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Calpha_i%2C+b_i+%5Cin+%5Cmathbb%7BR%7D">.
 
 The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is able to approximate belong to the space of continuous functions on some bounded domain. Let us consider an $n$-dimensional unit cube, $I_n=[0,1]^n$, and denote the space of continuous functions on $I_n$ by $C(I_n)$.
 
 Now we can formally state the **Universal Approximation Theorem**.
 
-**Theorem.** *Consider a neural network of the form (1) where <img src="https://render.githubusercontent.com/render/math?math=\large \varphi"> is sigmoid or ReLU. Then, given any <img src="https://render.githubusercontent.com/render/math?math=\large f\in C(I_n)"> and <img src="https://render.githubusercontent.com/render/math?math=\large \varepsilon>0">, there exists <img src="https://render.githubusercontent.com/render/math?math=\large F(\mathbf{x})"> for which*
+**Theorem.** *Consider a neural network of the form (1) where <img src="https://render.githubusercontent.com/render/math?math=\large \phi"> is sigmoid or ReLU. Then, given any <img src="https://render.githubusercontent.com/render/math?math=\large f\in C(I_n)"> and <img src="https://render.githubusercontent.com/render/math?math=\large \varepsilon>0">, there exists <img src="https://render.githubusercontent.com/render/math?math=\large F(\mathbf{x})"> for which*
 
 
 <!---
