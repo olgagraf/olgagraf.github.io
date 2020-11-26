@@ -13,7 +13,7 @@ rrr
 ![immm](assets/images/nn.jpg)
 
 <div align="center">
-<img src="/assets/images/2020-11-26-nn.jpg" height="400">
+<img src="{{ https://olgagraf.github.io }}/assets/images/2020-11-26-nn.jpg" height="400">
 </div>
 
 <sup>tfefffef</sup>
