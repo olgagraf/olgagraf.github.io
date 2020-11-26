@@ -41,9 +41,11 @@ Before we start with the proof, we'll touch upon some mathematical notions that 
 
 In mathematics, a measure on a set is a generalization of the concepts such as length, area, or volume, and can be intuitively interpreted as the size of the set. If we define some measure $\mu$ on $X$, we can integrate over $X$ with respect to that measure,
 
-\begin{equation*}
+\begin{equation}
 \int_X f(x)d\mu(x).
-\end{equation*}
+\end{equation}
+
+&\int_X f(x)d\mu(x).&
 
 In order to consistently apply some results from functional analysis, in the proof we will consider the space of all finite, signed regular Borel measures on $I_n$ and denote it by $M(I_n)$. For continuous functions on $I_n$, the above integral with respect to $\mu\in M(I_n)$ essentially gives the same result as the usual Riemann integral known from calculus.
 
