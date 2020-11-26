@@ -63,6 +63,8 @@ we have $\overline{S}=C(I_n)$, or, in other words, why the linear combination of
 
 The crucial reason behind why this holds true is the choice of the activation functions. In the first step, we will show that the chosen activation functions possess a certain useful property. In the second step, we will show that this property implies the ability of a neural network to approximate any continuous function.
 
+**Step 1.** We will state the following Lemma without a proof. The interested reader can find the proof for sigmoid function in the original paper by Cybenko and for ReLU in [[3]](http://math.uchicago.edu/~may/REU2018/REUPapers/Guilhoto.pdf).
+
 
 <!---
 **Bold** and _Italic_ and `Code` text
