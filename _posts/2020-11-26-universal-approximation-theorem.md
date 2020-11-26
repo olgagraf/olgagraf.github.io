@@ -105,7 +105,7 @@ L\neq 0,\hspace{0.2cm} \textrm{but}\hspace{0.2cm}L(g)=0 \hspace{0.2cm} \textrm{f
 
 This intuitively makes sense. Let's look at example from Step 1. Clearly, $G=\{\gamma(wx+b)\hspace{0.1cm}\|\hspace{0.1cm} w, b \in\mathbb{R} \}$ forms a proper subspace of $C(I_1)$ and $\overline{G}\neq C(I_1)$. As required, $\gamma(wx+b)$ satisfies the condition imposed by the theorems. As we've seen, $\int_{0}^{1} \gamma(wx+b)dx=0$ for all $w, b\in \mathbb{R}$, but $\int_{0}^{1} \gamma(g(x))dx$ might not be zero for arbitrary $g\in C(I_n)$.
 
-Now let's take $\phi(\mathbf{w}\cdot\mathbf{x}+b)\in\overline{S}$. By the discriminatory property, $L(\phi(\mathbf{w}\cdot\mathbf{x}+b))=0$ implies $\mu=0$ and $L(g)=0$ for all $g\in C(I_n)$ which contradicts (2) and our assumption that $\overline{S}\neq C(I_n)$. Therefore, $\overline{S}=C(I_n)$.
+Now let's take $\phi(\mathbf{w}\cdot\mathbf{x}+b)\in\overline{S}$. By the discriminatory property, $L(\phi(\mathbf{w}\cdot\mathbf{x}+b))=0$ implies $\mu=0$ and $L(g)=0$ for all $g\in C(I_n)$ which contradicts (2) and our assumption that $\overline{S}\neq C(I_n)$. Therefore, $\overline{S}=C(I_n)$. $\square$
 
 <!---
 **Bold** and _Italic_ and `Code` text
