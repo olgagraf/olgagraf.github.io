@@ -7,7 +7,7 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 ## The Formal Statement
 Let us start with defining our neural network and formalizing the theorem statement.
 
-\\(\mathbf{y} = A \mathbf{x}\\)
+$$mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}$$
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/nn.jpg" height="400">
