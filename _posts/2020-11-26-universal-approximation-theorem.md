@@ -51,7 +51,15 @@ In order to consistently apply some results from functional analysis, in the pro
 
 The closure of a set $A$ is denoted by $\overline{A}$ and is defined as the union of $A$ and its boundary. E.g., if $A=(a,b)$ is an open interval on $\mathbb{R}$, then $\overline{A}=[a,b]$. If $A=\mathbb{Q}$ is the set of all rational numbers, then $\overline{A}=\mathbb{R}$. We also say that $\mathbb{Q}$ is dense in $\mathbb{R}$.
 
+## The Proof of Universal Approximation Theorem
 
+We can think that a linear combination of neurons in a hidden layer approximates $f$ similarly to how a partial Fourier sum (i.e., finite linear combination of sines and cosines) approximates any periodic function. Now our goal is to figure out why for
+
+\begin{equation}
+S:=\mathrm{span}\{\phi(\mathbf{w}\cdot\mathbf{x}+b)\hspace{0.1cm}|\hspace{0.1cm} \mathbf{w}\in \mathbb{R}^n, b \in\mathbb{R} \},
+\end{equation}
+
+we have $\overline{S}=C(I_n)$, or, in other words, why the linear combination of activation functions can approximate \textit{any} continuous function.
 
 
 <!---
