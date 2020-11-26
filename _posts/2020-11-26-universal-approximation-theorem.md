@@ -18,6 +18,7 @@ where <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%
 The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is able to approximate belong to the space of continuous functions on some bounded domain. Let us consider an $n$-dimensional unit cube, $I_n=[0,1]^n$, and denote the space of continuous functions on $I_n$ by $C(I_n)$.
 
 Now we can formally state the **Universal Approximation Theorem**.
+
 <br>
 **Theorem.** *Consider a neural network of the form <img src="https://render.githubusercontent.com/render/math?math=\Large (1)"> where <img src="https://render.githubusercontent.com/render/math?math=\Large \phi"> is sigmoid or ReLU. Then, given any $f\in C(I_n)$ and $\varepsilon>0$, there exists $F(\mathbf{x})$ for which*
 <br>
