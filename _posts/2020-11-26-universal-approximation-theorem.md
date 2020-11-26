@@ -7,8 +7,7 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 ## The Formal Statement
 Let us start with defining our neural network and formalizing the theorem statement.
 
-dd
-rrr
+nnnu
 ![immm]()
 
 <div align="center">
