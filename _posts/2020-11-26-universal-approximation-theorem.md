@@ -15,6 +15,11 @@ We consider a feedforward network with <img src="https://render.githubuserconten
 
 where <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cmathbf%7Bw%7D_i%2C+%5Cmathbf%7Bx%7D+%5Cin+%5Cmathbb%7BR%7D%5En">, <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Calpha_i%2C+b_i+%5Cin+%5Cmathbb%7BR%7D">.
 
+The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is able to approximate belong to the space of continuous functions on some bounded domain. Let us consider an $n$-dimensional unit cube, $I_n=[0,1]^n$, and denote the space of continuous functions on $I_n$ by $C(I_n)$.
+
+Now we can formally state the **Universal Approximation Theorem**.
+
+
 <!---
 <ul>
   {% for post in site.posts %}
@@ -25,26 +30,6 @@ where <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%
 </ul>
 -->
 
-
-![\huge \int_X f(x)d\mu(x)
-](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cint_X+f%28x%29d%5Cmu%28x%29%0A)
-
-![\int_X f(x)d\mu(x)
-](https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cint_X+f%28x%29d%5Cmu%28x%29%0A)
-
-<div align="center">
-<img src="https://render.githubusercontent.com/render/math?math=\huge e^{i \pi} = -1">
-</div>
-
-<div align="center">
-<img src="https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cint_X+f%28x%29d%5Cmu%28x%29%0A">
-</div>
-
-<img src="https://render.githubusercontent.com/render/math?math=F(\mathbf{x})=\sum_{i=1}^{m}\alpha_i\phi(\mathbf{w}_i\mathbf{x}+b_i),">
-
-You can use the [editor on GitHub](https://github.com/olgagraf/olgagraf.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
