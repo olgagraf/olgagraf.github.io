@@ -19,17 +19,16 @@ We consider a feedforward network with $n$ neurons in the input layer, $m$ neuro
 F(\mathbf{x})=\sum_{i=1}^{m}\alpha_i\phi(\mathbf{w}_i\mathbf{x}+b_i),
 \end{equation}
 
-<div align="center">
-<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Bequation%7D%5Clabel%7Bnn%7D%0AF%28%5Cmathbf%7Bx%7D%29%3D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%5Calpha_i%5Cphi%28%5Cmathbf%7Bw%7D_i%5Cmathbf%7Bx%7D%2Bb_i%29%2C%0A%5Cend%7Bequation%7D">
-</div>
-
 where $\mathbf{w}_i, \mathbf{x} \in \mathbb{R}^n$, $\alpha_i, b_i \in \mathbb{R}$.
 
 The functions $f:\mathbb{R}^n\rightarrow \mathbb{R}$ that our neural network is able to approximate belong to the space of continuous functions on some bounded domain. Let us consider an $n$-dimensional unit cube, $I_n=[0,1]^n$, and denote the space of continuous functions on $I_n$ by $C(I_n)$.
 
 Now we can formally state the **Universal Approximation Theorem**.
 
-**Theorem.** *Consider a neural network of the form (1) where <img src="https://render.githubusercontent.com/render/math?math=\large \phi"> is sigmoid or ReLU. Then, given any <img src="https://render.githubusercontent.com/render/math?math=\large f\in C(I_n)"> and <img src="https://render.githubusercontent.com/render/math?math=\large \varepsilon>0">, there exists <img src="https://render.githubusercontent.com/render/math?math=\large F(\mathbf{x})"> for which*
+**Theorem.** Consider a neural network of the form (1) where $\phi$ is sigmoid or ReLU. Then, given any $f\in C(I_n)$ and $\varepsilon>0$, there exists $F(\mathbf{x})$ for which
+\[
+|F(\mathbf{x})-f(\mathbf{x})|<\varepsilon\hspace{0.5cm} \textrm{for all}\hspace{0.5cm} \mathbf{x}\in I_n.
+\]
 
 
 <!---
