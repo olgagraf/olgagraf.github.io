@@ -8,6 +8,7 @@ In this note, a simple yet mathematically rigorous explanation is presented. In 
 Let us start with defining our neural network and formalizing the theorem statement.
 
 rrr
+![immm](assets/images/nn.jpg)
 
 <div align="center">
 <img src="https://github.com/olgagraf/olgagraf.github.io/assets/images/olga4.jpg" height="400">
