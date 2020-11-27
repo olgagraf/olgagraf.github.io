@@ -88,7 +88,7 @@ In order to get some intuition about this property, let's resort to a simple uni
 <sup><b>Figure 2.</b> Sigmoid function $\sigma$ satisfies the discriminatory property, while $\gamma$ does not.</sup>
 </div>
 
-In Figure 2 we see that in case of $\gamma(wx+b)$, its integral on a unit interval will be zero for all $w, b\in \mathbb{R}$. This is not true for the sigmoid function $\sigma(wx+b)$. In this case we get zero for all $w, b\in \mathbb{R}$ only if we integrate over an interval of length zero.
+In Figure 2 we see that in case of $\gamma(wx+b)$, its integral on a unit interval will be zero for all $w, b\in \mathbb{R}$. This is not true for the sigmoid function $\sigma(wx+b)$. In this case we get zero for all $w, b\in \mathbb{R}$ only if we integrate over an interval of length zero (essentially, analogous to $\mu=0$).
 
 In some sense, the discriminatory property prevents functions from "losing" the information conveyed in the linear transformation of $\mathbf{x}$.
 
