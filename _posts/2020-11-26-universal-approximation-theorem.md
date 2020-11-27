@@ -48,6 +48,9 @@ $\displaystyle\int\nolimits_X f(x)d\mu(x).$
 </div>
 
 In order to consistently apply some results from functional analysis, in the proof we will consider the space of all finite, signed regular Borel measures on $I_n$ and denote it by $M(I_n)$. For continuous functions on $I_n$, the above integral with respect to $\mu\in M(I_n)$ essentially has the same meaning as the usual Riemann integral known from calculus.
+<!---
+The usual Riemann integral known from calculus is not expressible in terms of the above integral with respect to $\mu\in M(I_n)$, but it can provide some intuition in examples.
+-->
 
 **Closure**
 
