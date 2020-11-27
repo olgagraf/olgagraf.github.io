@@ -78,7 +78,7 @@ The crucial reason behind why this holds true is the choice of the activation fu
 
 *for all $\mathbf{w}\in \mathbb{R}^n,  b \in \mathbb{R}$ implies that  $\mu=0$.*
 
-In order to get some intuition about this property, let's resort to a simple univariate example. Consider mapping $\gamma\left(f(x)\right)=f(x)-f\left({}^1{\mskip -2mu/\mskip -0mu}_2\right)$.
+In order to get some intuition about this property, let's resort to a simple univariate example with Riemann integration. Consider mapping $\gamma\left(f(x)\right)=f(x)-f\left({}^1{\mskip -2mu/\mskip -0mu}_2\right)$.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/olgagraf/olgagraf.github.io/main/assets/images/example3.jpg" height="275">
@@ -88,7 +88,7 @@ In order to get some intuition about this property, let's resort to a simple uni
 <sup><b>Figure 2.</b> Sigmoid function $\sigma$ satisfies the discriminatory property, while $\gamma$ does not.</sup>
 </div>
 
-In Figure 2 we see that in case of $\gamma(wx+b)$, its Riemann integral on a unit interval will be zero for all $w, b\in \mathbb{R}$. This is not true for the sigmoid function $\sigma(wx+b)$. In this case we get zero for all $w, b\in \mathbb{R}$ only if we integrate over an interval of length zero.
+In Figure 2 we see that in case of $\gamma(wx+b)$, its integral on a unit interval will be zero for all $w, b\in \mathbb{R}$. This is not true for the sigmoid function $\sigma(wx+b)$. In this case we get zero for all $w, b\in \mathbb{R}$ only if we integrate over an interval of length zero.
 
 In some sense, the discriminatory property prevents functions from "losing" the information conveyed in the linear transformation of $\mathbf{x}$.
 
