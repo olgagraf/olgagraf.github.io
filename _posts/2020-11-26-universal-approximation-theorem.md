@@ -47,9 +47,9 @@ In mathematics, a measure on a set is a generalization of the concepts such as l
 $\displaystyle\int\nolimits_X f(x)d\mu(x).$
 </div>
 
-In order to consistently apply some results from functional analysis, in the proof we will consider the space of all finite, signed regular Borel measures on $I_n$ and denote it by $M(I_n)$. The usual Riemann integral known from calculus is not expressible in terms of the above integral with respect to $\mu\in M(I_n)$, but it can provide some intuition about the latter.
+In order to consistently apply some results from functional analysis, in the proof we will consider the space of all finite, signed regular Borel measures on $I_n$ and denote it by $M(I_n)$. The usual Riemann integral known from calculus is not expressible in terms of the above integral, but it can provide some intuition about the latter.
 <!---
-For continuous functions on $I_n$, the above integral with respect to $\mu\in M(I_n)$ essentially has the same meaning as the usual Riemann integral known from calculus.
+with respect to $\mu\in M(I_n)$
 -->
 
 **Closure**
@@ -88,7 +88,7 @@ In order to get some intuition about this property, let's resort to a simple uni
 <sup><b>Figure 2.</b> Sigmoid function $\sigma$ satisfies the discriminatory property, while $\gamma$ does not.</sup>
 </div>
 
-In Figure 2 we see that in case of $\gamma(wx+b)$, its integral on a unit interval will be zero for all $w, b\in \mathbb{R}$. This is not true for the sigmoid function $\sigma(wx+b)$. In this case we get zero for all $w, b\in \mathbb{R}$ only if we integrate over an interval of length zero (essentially, meaning that $\mu=0$).
+In Figure 2 we see that in case of $\gamma(wx+b)$, its integral on a unit interval will be zero for all $w, b\in \mathbb{R}$. This is not true for the sigmoid function $\sigma(wx+b)$. In this case we get zero for all $w, b\in \mathbb{R}$ only if we integrate over an interval of length zero.
 
 In some sense, the discriminatory property prevents functions from "losing" the information conveyed in the linear transformation of $\mathbf{x}$.
 
